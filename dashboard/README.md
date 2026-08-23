@@ -1,14 +1,30 @@
-# Power BI Dashboard
+# CredResolve Collection Intelligence Dashboard
 
-CredResolve Collection Intelligence executive dashboard.
+This folder contains the Power BI dashboard for the CredResolve Collection Intelligence portfolio project.
+
+## Dashboard Focus
 
 The dashboard presents:
-- Portfolio outstanding
-- Recovery and payment performance
-- Risk-segment exposure
-- DPD distribution
-- PTP and payment analysis
-- Collection activity
-- Executive-level business insights
 
-The Power BI dashboard is built from the cleaned account-level analytical dataset used in the project.
+- Recovery performance
+- Recovery rate
+- Month-on-month recovery change
+- Outstanding portfolio
+- Accounts worked
+- PTP performance
+- Recovery by channel
+- Recovery by DPD and risk segment
+- Investigation of the reported 11% recovery improvement
+- Key business recommendations
+
+## Tool
+
+Power BI Desktop
+
+## Data Source
+
+The dashboard uses the cleaned analytical dataset generated from the CredResolve collection data.
+
+## Important
+
+All dashboard KPIs should use the same metric definitions as the Python analysis, SQL analysis, and executive report.
